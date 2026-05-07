@@ -14,8 +14,8 @@ The core academic focus is software engineering, AI systems, distributed infrast
 |---|---|
 | Academic reviewer | Dr. Masoud Sadjadi |
 | Affiliation | Knight Foundation School of Computing & Information Sciences, College of Engineering & Computing, Florida International University |
-| External sponsor | Adriano Fiorenza, Founder & Developer, GameChanger Wallet |
-| External sponsor | Juan Sierra, Founder, WebBridges.io |
+| Project originator | Adriano Fiorenza, Founder & Developer, GameChanger Wallet |
+| Repository organizer / external sponsor | Juan Sierra, Founder, WebBridges.io |
 
 ## At a Glance
 
@@ -28,6 +28,13 @@ The core academic focus is software engineering, AI systems, distributed infrast
 | Safety boundary | No custody, no seed phrase storage, no autonomous signing |
 | Suggested team | 4–5 students |
 | External sponsors | GameChanger Wallet and WebBridges.io |
+
+## Origin and Attribution
+
+This GitHub repository is a structured adaptation of the original project proposal initiated by **Adriano Fiorenza**, Founder & Developer of **GameChanger Wallet**, in collaboration with **Juan Sierra**, Founder of **WebBridges.io**.
+The original proposal introduced the project vision: an AI + Web3 capstone concept focused on helping students, developers, researchers, non-technical users, and AI systems interact with decentralized technologies through open, intent-based, client-side infrastructure.
+Adriano’s original document established the core technical direction, including the use of Cardano, GameChanger Wallet, the Universal DApp Connector, GCScript DSL, Retrieval-Augmented Generation, Model Context Protocol, and intent-based workflow generation.
+This repository was created by Juan Sierra to organize the proposal into a GitHub-native format for academic review, software engineering practice, collaboration, version control, and possible FIU Senior Design / Capstone consideration.
 
 ## Contents
 
@@ -266,8 +273,15 @@ Potential resources may include:
 
 The project can be scoped to avoid the use of real funds and should operate in testnet, simulated, or educational environments wherever appropriate.
 
-## Maintainers
-This proposal is maintained by the external sponsor team for academic review and possible FIU Senior Design / Capstone consideration.
+## Maintainers and Attribution
+This proposal is maintained for academic review and possible FIU Senior Design / Capstone consideration.
+Project origin and initial concept:
+- **Adriano Fiorenza** — Founder & Developer, GameChanger Wallet
+GitHub organization, academic framing, and sponsor proposal adaptation:
+- **Juan Sierra** — Founder, WebBridges.io
+Collaborative proposal contributors:
+- **Adriano Fiorenza** — GameChanger Wallet
+- **Juan Sierra** — WebBridges.io
 
 Initial contributors:
 
