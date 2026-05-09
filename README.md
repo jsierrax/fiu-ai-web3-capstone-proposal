@@ -36,7 +36,7 @@ The repository is structured for academic review, software engineering practice,
 
 ## Contents
 
-- [Project Status](#project-status)
+- [Project Background](#project-background)
 - [Project Summary](#project-summary)
 - [Problem Statement](#problem-statement)
 - [Proposed Solution](#proposed-solution)
