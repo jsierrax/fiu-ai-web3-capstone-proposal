@@ -29,11 +29,6 @@ The core academic focus is software engineering, AI systems, distributed infrast
 | Suggested team | 4–5 students |
 | External sponsors | GameChanger Wallet and WebBridges.io |
 
-## Project Background
-This repository presents an AI + Web3 capstone project designed to make decentralized technologies more accessible through open, intent-based, client-side infrastructure.
-The project explores how students, developers, researchers, non-technical users, and AI systems can interact with Cardano-based tools such as GameChanger Wallet, the Universal DApp Connector, GCScript DSL, Retrieval-Augmented Generation, Model Context Protocol, and intent-based workflow generation.
-The repository is structured for academic review, software engineering practice, collaboration, version control, and possible FIU Senior Design / Capstone consideration.
-
 ## Contents
 
 - [Project Background](#project-background)
@@ -50,6 +45,10 @@ The repository is structured for academic review, software engineering practice,
 
 ---
 
+## Project Background
+This repository presents an AI + Web3 capstone project designed to make decentralized technologies more accessible through open, intent-based, client-side infrastructure.
+The project explores how students, developers, researchers, non-technical users, and AI systems can interact with Cardano-based tools such as GameChanger Wallet, the Universal DApp Connector, GCScript DSL, Retrieval-Augmented Generation, Model Context Protocol, and intent-based workflow generation.
+The repository is structured for academic review, software engineering practice, collaboration, version control, and possible FIU Senior Design / Capstone consideration.
 ## Project Summary
 This project proposes an AI-assisted, intent-based interface that helps users understand and safely compose blockchain workflows through natural language.
 A student team would design and prototype a software system that uses retrieval-augmented generation, tool orchestration, and client-side wallet interaction patterns to translate user requests into clear, reviewable, human-approved workflow drafts.
