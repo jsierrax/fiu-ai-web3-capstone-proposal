@@ -1,4 +1,4 @@
-# AI-Assisted Intent-Based Interface for Secure Blockchain Workflow Generation
+# AI-Assistant for Intent-Based Blockchain Applications
 
 ## FIU Senior Design / Capstone Sponsor Proposal
 
@@ -29,12 +29,10 @@ The core academic focus is software engineering, AI systems, distributed infrast
 | Suggested team | 4–5 students |
 | External sponsors | GameChanger Wallet and WebBridges.io |
 
-## Origin and Attribution
-
-This GitHub repository is a structured adaptation of the original project proposal initiated by **Adriano Fiorenza**, Founder & Developer of **GameChanger Wallet**, in collaboration with **Juan Sierra**, Founder of **WebBridges.io**.
-The original proposal introduced the project vision: an AI + Web3 capstone concept focused on helping students, developers, researchers, non-technical users, and AI systems interact with decentralized technologies through open, intent-based, client-side infrastructure.
-Adriano’s original document established the core technical direction, including the use of Cardano, GameChanger Wallet, the Universal DApp Connector, GCScript DSL, Retrieval-Augmented Generation, Model Context Protocol, and intent-based workflow generation.
-This repository was created by Juan Sierra to organize the proposal into a GitHub-native format for academic review, software engineering practice, collaboration, version control, and possible FIU Senior Design / Capstone consideration.
+## Project Background
+This repository presents an AI + Web3 capstone project designed to make decentralized technologies more accessible through open, intent-based, client-side infrastructure.
+The project explores how students, developers, researchers, non-technical users, and AI systems can interact with Cardano-based tools such as GameChanger Wallet, the Universal DApp Connector, GCScript DSL, Retrieval-Augmented Generation, Model Context Protocol, and intent-based workflow generation.
+The repository is structured for academic review, software engineering practice, collaboration, version control, and possible FIU Senior Design / Capstone consideration.
 
 ## Contents
 
@@ -58,7 +56,7 @@ A student team would design and prototype a software system that uses retrieval-
 The system would be designed with strong safety boundaries:
 * It does not custody private keys.
 * It does not store seed phrases.
-* It does not sign transactions.
+* It does not sign transactions on behalf of the user.
 * It does not execute financial actions autonomously.
 * It does not bypass wallet review.
 Instead, the assistant helps users learn, inspect, and prepare decentralized workflows while keeping final approval inside the user-controlled wallet environment.
@@ -136,11 +134,12 @@ Security and user sovereignty are core design requirements.
 The assistant must not:
 * Custody private keys
 * Store seed phrases
-* Sign transactions
+* Sign transactions on behalf of the user
 * Execute financial actions autonomously
 * Bypass wallet review
 * Misrepresent risks to the user
 * Hide generated workflow logic from the user
+
 The assistant should:
 * Explain generated workflows clearly
 * Separate educational guidance from executable workflow drafts
@@ -167,12 +166,13 @@ Expected outputs:
 * Evaluation plan
 * Final implementation roadmap
 ### Senior Design II: Implementation, Testing, and Showcase Demonstration
+
 Expected outputs:
 * Working assistant prototype
 * Knowledge retrieval and response workflow
 * Intent generation workflow
 * Human-readable explanation layer
-* Optional wallet or intent-integration demo
+* Required wallet-backed intent integration demo. A working demo showing that the system can translate a user intent into an actionable Cardano workflow and complete the interaction through GameChanger Wallet, including wallet connection, user review/signing, and a visible execution result.
 * Security testing and validation checklist
 * User testing or usability feedback
 * Final technical report
@@ -221,10 +221,10 @@ The project would be considered successful if students can demonstrate:
 * At least three blockchain-related educational or workflow scenarios
 * Clear human-readable explanations of generated workflows
 * Strong separation between AI suggestion and user-approved execution
-* No private key custody or autonomous transaction signing
+* No private key custody or autonomous transaction signing on behalf of the user
+* Multisig-friendly design considerations for user-approved execution
 * Documented threat model and security testing approach
 * A polished final presentation suitable for FIU Senior Design Showcase
-
 ## Recommended Repository Structure
 
 ```text
@@ -273,20 +273,12 @@ Potential resources may include:
 
 The project can be scoped to avoid the use of real funds and should operate in testnet, simulated, or educational environments wherever appropriate.
 
-## Maintainers and Attribution
-This proposal is maintained for academic review and possible FIU Senior Design / Capstone consideration.
-Project origin and initial concept:
+## Contributors and Roles
+This repository is organized for academic review, collaboration, and possible FIU Senior Design / Capstone consideration.
+Concept and technical direction:
 - **Adriano Fiorenza** — Founder & Developer, GameChanger Wallet
-GitHub organization, academic framing, and sponsor proposal adaptation:
+Academic framing, GitHub organization, and ecosystem coordination:
 - **Juan Sierra** — Founder, WebBridges.io
-Collaborative proposal contributors:
-- **Adriano Fiorenza** — GameChanger Wallet
-- **Juan Sierra** — WebBridges.io
-
-Initial contributors:
-
-* Adriano Fiorenza — GameChanger Wallet
-* Juan Sierra — WebBridges.io
 
 ---
 
@@ -294,4 +286,3 @@ Initial contributors:
 This repository is for academic project proposal and educational prototyping purposes only.
 It is not financial advice, legal advice, investment guidance, or a production wallet application.
 Any student implementation should use testnet, simulated, or educational environments unless explicitly approved otherwise by FIU faculty and project sponsors.
-
